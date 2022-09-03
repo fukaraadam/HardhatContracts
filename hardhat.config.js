@@ -14,6 +14,9 @@ const MAINACCOUNT_PRIVATE_KEY = process.env.MAINACCOUNT_PRIVATE_KEY;
 module.exports = {
   solidity: "0.8.9",
   networks: {
+    hardhat: {
+      chainId: 1337 // We set 1337 to make interacting with MetaMask simpler
+    },
     rinkeby: {
       url: `https://eth-rinkeby.alchemyapi.io/v2/${ALCHEMY_API_KEY}`,
       accounts: [MAINACCOUNT_PRIVATE_KEY]

@@ -11,3 +11,15 @@ GAS_REPORT=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+Tutorial: <https://hardhat.org/tutorial/boilerplate-project>
+
+To test on local node:
+
+```shell
+npx hardhat node
+npx hardhat --network localhost run scripts/deployToken.js
+Go to frontend -> npm run start
+Frontend: <http://localhost:3000/>
+Node: <http://localhost:8545/>
+```
