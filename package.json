@@ -1,7 +1,7 @@
 {
-  "name": "pixel-contracts",
+  "name": "hardhat-contracts",
   "version": "1.0.0",
-  "description": "Contract development of pixel game",
+  "description": "Example Contract development with hardhat",
   "main": "index.js",
   "scripts": {
     "test": "npx hardhat test",
