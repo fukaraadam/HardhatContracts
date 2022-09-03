@@ -9,7 +9,8 @@
     "deployLock": "npx hardhat run scripts/deployLock.js",
     "deployToken": "npx hardhat run scripts/deployToken.js",
     "node": "npx hardhat node",
-    "deployToken-localhost": "npx hardhat run scripts/deployToken.js --network localhost"
+    "deployToken-localhost": "npx hardhat run scripts/deployToken.js --network localhost",
+    "deployToken-rinkeby": "npx hardhat run scripts/deployToken.js --network rinkeby"
   },
   "author": "Furkan Alan",
   "license": "ISC",
@@ -19,5 +20,8 @@
     "@nomiclabs/hardhat-web3": "^2.0.0",
     "hardhat": "^2.11.0",
     "web3": "^1.7.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2"
   }
 }
